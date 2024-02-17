@@ -52,3 +52,30 @@ ol {
   justify-content: space-between;
   align-items: center;
 }
+
+/* -----------my-blog------------------- */
+
+
+.my-blog {
+  height: 100vh;
+  background-color: #9fb2ea;
+}
+
+.title {
+  font-size: 40px;
+  text-align: center;
+}
+
+.my-blog__title {
+  padding-top: 40px;
+}
+
+.my-blog__content {
+  margin-top: 40px;
+  margin-top: 40px;
+}
+
+.my-blog__content p:not(:last-child) {
+  margin-bottom: 20px;
+  text-align: justify;
+}
